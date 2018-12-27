@@ -80,7 +80,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    			</tr>			
    			<tr>
    				<td>
-   					 <input type ="submit" value="更该">&nbsp;&nbsp;<a href="management.jsp">返回主页</a>
+   					 <input type ="submit" value="更改">&nbsp;&nbsp;<a href="management.jsp">返回主页</a>
    				</td>
    			</tr>
    		</table>

@@ -77,7 +77,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<td colspan="2" align="right">
 					<c:if test="${usernameadmin!=null}">
 	  					<span id="hello">欢迎您，${usernameadmin}</span> &nbsp; &nbsp; &nbsp;
-	  					<a href="/webbookshop/Adminlogout"> &nbsp;退出 &nbsp;</a>
+	  					<a href="/webbookshop/admin.jsp"> &nbsp;退出 &nbsp;</a>
 	  				</c:if>
 	  				<c:if test="${usernameadmin==null}">
 	  					<a href ="admin.jsp">登录</a>		

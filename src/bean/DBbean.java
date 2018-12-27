@@ -19,11 +19,11 @@ public class DBbean {
 		if(con == null){
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				String url="jdbc:mysql://127.0.0.1/bookshoping";
+				String url="jdbc:mysql://localhost/bookshopping";
 				String user="root";
-				String password ="";
+				String password ="root";
 				
-				con = DriverManager.getConnection(url+"?user="+user+"&password="+""+"&useUnicode=true&characterEncoding=utf-8");
+				con = DriverManager.getConnection(url+"?user="+user+"&password="+password+"&useUnicode=true&characterEncoding=utf-8");
 				
 				
 			} catch (ClassNotFoundException e) {
