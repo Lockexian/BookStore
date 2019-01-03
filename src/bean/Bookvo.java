@@ -54,8 +54,8 @@ public class Bookvo {
 	public String getPublishdata() {
 		return publishdata;
 	}
-	public void setPublishdata(String publishdaata) {
-		this.publishdata = publishdaata;
+	public void setPublishdata(String publishdata) {
+		this.publishdata = publishdata;
 	}
 	public int getPagenum() {
 		return pagenum;
@@ -99,4 +99,5 @@ public class Bookvo {
 	public void setImageFile(String imageFile) {
 		this.imageFile = imageFile;
 	}
+	
 }

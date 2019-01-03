@@ -8,9 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import bean.Basketdao;
-import bean.Bookdao;
 import bean.Bookvo;
+import dao.Basketdao;
+import dao.Bookdao;
 
 /**
  * Servlet implementation class Detailservlet

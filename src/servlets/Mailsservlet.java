@@ -22,8 +22,8 @@ import javax.servlet.http.HttpSession;
 
 import com.sun.mail.util.MailSSLSocketFactory;
 
-import bean.DBbean;
-import bean.Userdao;
+import dao.DBbean;
+import dao.Userdao;
 
 /**
  * Servlet implementation class Mailsservlet

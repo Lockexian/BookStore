@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import bean.Bookdao;
 import bean.Bookvo;
+import dao.Bookdao;
 
 /**
  * Servlet implementation class Ubookdetail

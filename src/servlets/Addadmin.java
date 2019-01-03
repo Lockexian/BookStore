@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import bean.Admindao;
 import bean.Adminvo;
+import dao.Admindao;
 
 /**
  * Servlet implementation class Addadmin

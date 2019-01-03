@@ -61,7 +61,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		}
 		#ok{
 			width:43px;
-			height:43px;
+			height:46px;<!-- 43-->
 			margin:0 0 0 -4px;
 			background:url(images/sousuo2.png);
 			border:0px

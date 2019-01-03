@@ -13,10 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import bean.Basketdao;
-import bean.Bookdao;
-import bean.Orderinfodao;
 import bean.Orderinfovo;
+import dao.Basketdao;
+import dao.Bookdao;
+import dao.Orderinfodao;
 
 /**
  * Servlet implementation class Oriservler
