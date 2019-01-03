@@ -1,9 +1,11 @@
-package bean;
+package dao;
 
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+
+import bean.*;
 
 
 
@@ -176,7 +178,7 @@ public class Userdao {
 		
 		
 
-		String sql = "update users set pwd = ?,sex = ?,adress = ?,email = ?,telephone = ? where username =\""+ uv.username+"\"";
+		String sql = "update users set pwd = ?,sex = ?,adress = ?,email = ?,telephone = ? where username =\""+ uv.getUsername()+"\"";
 		//System.out.println("------------sql------"+sql);
 
 		ArrayList params = new ArrayList();

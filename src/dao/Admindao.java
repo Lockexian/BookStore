@@ -1,8 +1,10 @@
-package bean;
+package dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+
+import bean.Adminvo;
 
 public class Admindao {
 	public boolean login(String adminname,String adminpwd){

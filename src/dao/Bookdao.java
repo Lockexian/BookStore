@@ -1,9 +1,11 @@
-package bean;
+package dao;
 
 import java.io.UnsupportedEncodingException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+
+import bean.Bookvo;
 
 
 
@@ -261,7 +263,7 @@ public class Bookdao {
 	}
 	public boolean updatebookinfo(Bookvo bv){
 		
-		String sql = "update books set bookname=\""+bv.getBookname()+"\", ISBN=\""+bv.getISBN()+"\" ,publisher=\""+bv.getPublisher()+"\" ,author=\""+bv.getAuthor()+"\" ,pagenum="+bv.getPagenum()+" ,saleprice="+bv.getSaleprice()+" ,content=\""+bv.getContent()+"\" ,storecount="+bv.getStorecount() +"where bookid="+bv.getBookid();
+		String sql = "update books set bookname=\""+bv.getBookname()+"\", ISBN=\""+bv.getISBN()+"\" ,publisher=\""+bv.getPublisher()+"\" ,author=\""+bv.getAuthor()+"\" ,pagenum="+bv.getPagenum()+" ,saleprice="+bv.getSaleprice()+" ,content=\""+bv.getContent()+"\" ,storecount="+bv.getStorecount() +" where bookname=\""+bv.getBookname()+"\"";
 		System.out.println(sql);
 		DBbean db = new DBbean();
 		db.getConnection();
